@@ -1,0 +1,8 @@
+alphabet = ["-", "p", "g"]
+[[axiom]]
+axiom = "xp-gx-"
+wildcards = {x = "-*"}
+[[rule]]
+pattern = "(-*)p(-*)g(-*)"
+sub = "\\1p\\2-g\\3-"
+

@@ -1,0 +1,14 @@
+alphabet = ["A", "L", "I"]
+[[axiom]]
+axiom = "I"
+wildcards = {}
+[[rule]]
+pattern = "^(.*I)$"
+sub = "A\\1"
+[[rule]]
+pattern = "LL"
+sub = ""
+[[rule]]
+pattern = "A"
+sub = "LAL"
+

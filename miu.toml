@@ -1,0 +1,16 @@
+# The MIU Formal System
+# Can MU be produced?
+alphabet = ["M", "I", "U"]
+[[axiom]]
+axiom = "MI"
+wildcards = {}
+[[rule]]
+pattern = "^(.*I)$"
+sub = "\\1U"
+[[rule]]
+pattern = "^M(.*)$"
+sub = "M\\1\\1"
+[[rule]]
+pattern = "(.*)III(.*)"
+sub = "\\1U\\2"
+
